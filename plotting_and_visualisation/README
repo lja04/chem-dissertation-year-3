@@ -1,0 +1,27 @@
+# Visualization and Statistical Analysis Tools
+
+This folder includes scripts and utilities to generate detailed graphical representations and perform statistical analysis on energy differences, timing measurements, and error metrics in computational chemistry and materials science datasets.
+
+Contains scripts for:
+- Generating plots of energy differences across single and combined crystal datasets.
+- Creating visualizations for error values and statistics using histograms, overlapping plots, and subplots.
+- Producing graphs for timing data such as average time per k-point or per k-value.
+- Compiling multiple datasets into combined plots for comprehensive visual analysis.
+- Visualizing statistical errors and comparing differences across data subsets.
+
+These tools aid researchers in interpreting, validating, and presenting simulation results through clear, publication-quality figures.
+
+## Usage
+
+Run visualization scripts after preparing data with processing tools to create plots summarizing energy, timing, and error data. These visual outputs support data validation and result communication.
+
+## Dependencies
+
+- Python 3.x
+- matplotlib
+- pandas
+- numpy
+- seaborn (if required by specific scripts)
+- Additional plotting libraries as specified within individual scripts
+
+---
